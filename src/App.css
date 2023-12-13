@@ -42,15 +42,16 @@
 }
 
 p {
-  border: 3px solid black;
+  border: 2px solid black;
   border-radius: 35px;
   padding: 20px;
   margin: 20px;
   font-family:'Courier New', Courier, monospace;
   font-size: 1.1em;
-  font-weight: bold;
+  font-weight: bolder;
   box-shadow: 3px 3px 10px black;
   cursor: pointer;
+  background-color: #c2b013;
 }
 
 .App {
@@ -59,19 +60,39 @@ p {
   align-items: center;
   justify-content: center;
   width: 85%;
-  border: 5px solid black;
+  border: 3px solid black;
   height: auto;
   padding: 60px;
   margin: 0px 10px 10px 80px;
   box-shadow: 3px 3px 10px black;
-  background-color: #d5ebda;
+  background-color: rgba(213, 235, 218, 0.8);
   border-radius: 35px;
 }
 
 .FeaturedPup {
-  border: 1px solid black;
+  border: 3px solid black;
+  padding: 10px 30px;
+  margin: 20px;
+  border-radius: 80px;
+  box-shadow: 3px 3px 10px black;
+  background-color: #c2b013;
 }
 
 h2 {
+  font-family: Papyrus, fantasy;
+  font-size: 2.3em;
+  font-weight: bolder;
+  text-align: center;
+  margin: 20px;
+}
 
+ul {
+  list-style: none;
+}
+
+li {
+  font-family: papyrus, fantasy;
+  font-size: 1.5em;
+  text-align: center;
+  margin: 10px;
 }
